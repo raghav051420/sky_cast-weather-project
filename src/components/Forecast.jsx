@@ -55,10 +55,10 @@ export default function Forecast({data}) {
     <div className='todayfor' style={{width:'60%',backgroundColor:'#fbfbfc',height:"200px",margin:"10px auto",borderRadius:'20px 20px 20px 20px'}} >
           <div className='heading' style={{margin:'10px'}}>
              
-             <h3 style={{float:"right",fontSize:"20px", color:'#4064a3'}}><img src="public\images\pin.png" alt="" style={{width:"15px",height:"15px"}}/> {data.location?.name}, {data.location?.country}</h3>
+             <h3 style={{float:"right",fontSize:"20px", color:'#4064a3'}}><img src=" images\pin.png" alt="" style={{width:"15px",height:"15px"}}/> {data.location?.name}, {data.location?.country}</h3>
             <h3> 
              
-             <img src="public\images\clock.png" alt="" style={{height:"25px",width:"25px"}} /> 
+             <img src=" images\clock.png" alt="" style={{height:"25px",width:"25px"}} /> 
           
           <b> Today's Forecast</b></h3>
          

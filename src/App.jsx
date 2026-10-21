@@ -19,7 +19,7 @@ import Testing from "./components/Testing";
 import Skynav from "./components/Skynav";
 import Forecast from "./components/Forecast";
 import Productinfo from "./components/Productinfo";
-import Add from "./components/add";
+// import Add from "./components/add";
 function App() {
   const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
   const [count, setCount] = useState(0)
