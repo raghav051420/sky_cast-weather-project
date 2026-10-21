@@ -21,7 +21,7 @@ import Forecast from "./components/Forecast";
 import Productinfo from "./components/Productinfo";
 // import Add from "./components/add";
 function App() {
-  const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
+  const API_KEY = "966a094b220e439aa31114414262110";
   const [count, setCount] = useState(0)
     const [data,setData]=useState({});
     const [city, setCity] = useState("");
